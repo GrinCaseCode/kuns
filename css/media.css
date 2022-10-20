@@ -1,0 +1,556 @@
+/*==========  Desktop First Method  ==========*/
+@media only screen and (min-width : 1200px) and (max-height: 815px) {
+    .header {
+       padding-top: 40px;
+   }
+   .title-big {
+    font-size: 100px; 
+    line-height: 120px;
+}
+.descr-big {
+    font-size: 22px;
+    line-height: 38px;
+}
+.billbord__content {
+	max-width: 750px;
+}
+}
+@media (max-width: 1560px) {
+    .row_advantages {
+        margin: 0 -40px;
+    }
+    .item-advantage {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 32px 25px;
+    }
+}
+@media (max-width: 1380px) {
+    .menu {
+        max-width: 680px;
+    }
+    .item-team__image {
+        width: 165px;
+        height: 165px;
+    }
+    .item-advantage {
+        font-size: 14px;
+        line-height: 23px;
+        padding: 25px 15px;
+    } 
+    .row_advantages {
+        margin: 0 -20px;
+    }
+    .row_advantages > div {
+        padding: 0 7px;
+        margin-top: 20px;
+    }
+    .row_units > div {
+        padding: 0 15px;
+    }
+    .row_units {
+        margin: 0 -15px;
+    }
+    .line-pros {
+        transform: scale(0.9);
+    }
+}
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .header {
+        padding-top: 35px;
+    }
+    body {
+        font-size: 14px;
+    }
+    .menu {
+        margin: 0 30px;
+    }
+    .title-big {
+        font-size: 100px;
+        line-height: 115px;
+    }
+    .descr-big {
+        font-size: 21px;
+        line-height: 34px;
+    }
+    .billbord__content {
+        max-width: 685px;
+    }
+    .title-section {
+        padding-top: 100px;
+    }
+    .tokenomics {
+        padding-top: 100px;
+        padding-bottom: 260px;
+    }
+    .roadmap-wrap {
+        max-width: 785px;
+    }
+    .team {
+        padding-bottom: 40px;
+    }
+    .subscribe-block {
+        margin-bottom: 150px;
+    }
+    .row_units > div {
+        padding: 0 7px;
+    }
+    .row_units {
+        margin: 0 -7px;
+    }
+    .item-pros_6, .item-pros_2 {
+        right: 100px;
+    }
+    .item-pros_5, .item-pros_1 {
+        left: 100px;
+    }
+    .line-pros {
+        transform: scale(0.7);
+    }
+    .btn-pros_buy {
+        top: 342px;
+        left: 131px;
+    }
+    .btn-pros_sell {
+        top: 281px;
+        right: 116px;
+    }
+    .item-thesis__value {
+    font-size: 72px;
+}
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .logo img {
+        max-width: 125px;
+    }
+    .item-advantage {
+        margin-top: 0px;
+    }
+    .title-section {
+        padding-top: 70px;
+    }
+    .tokenomics {
+        padding-top: 15px;
+        padding-bottom: 125px;
+    }
+    .roadmap-wrap {
+        max-width: 580px;
+        background-position: center 128px;
+    }
+    .team .title-section {
+        padding-bottom: 40px;
+    }
+    .subscribe-block {
+        margin-bottom: 90px;
+    }
+    .item-pros_5, .item-pros_1 {
+        left: 0;
+    }
+    .item-pros_6, .item-pros_2 {
+        right: 0;
+    }
+    .btn-pros_sell {
+        top: 201px;
+        right: 11px;
+    }
+    .btn-pros_buy {
+        top: 201px;
+        left: 11px;
+    }
+    .line-pros {
+        display: none;
+    }
+    .tradings__content {
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .row_tradings {
+        margin-top: 90px;
+    }
+    .row_steps > div:nth-child(2)::after {
+        display: none;
+    }
+    .item-thesis__value {
+    font-size: 55px;
+}
+.item-thesis__text {
+    font-size: 16px;
+}
+.thesis {
+    padding-bottom: 30px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .header__wrap .item-dropdown,
+    .header__wrap .menu {
+        display: none;
+    }
+    .title-big {
+        font-size: 70px;
+        line-height: 84px;
+    }
+    .descr-big {
+        font-size: 18px;
+        line-height: 29px;
+    }
+    .billbord__content {
+        padding-top: 20px;
+        min-height: 600px;
+    }
+    .title-section {
+        font-size: 45px;
+    }
+    .descr-section {
+        font-size: 17px;
+        line-height: 30px;
+    }
+    .code img {
+        border-radius: 12px;
+    }
+    .code {
+        margin-top: 38px;
+    }
+    .tokenomics {
+        padding-top: 15px;
+        padding-bottom: 50px;
+    }
+    .roadmap-wrap {
+        padding-left: 45px;
+        max-width: 260px;
+        display: block;
+        background-image: none;
+        position: relative;
+    }
+    .roadmap-wrap::before {
+        position: absolute;
+        display: block;
+        content: " ";
+        width: 10px;
+        height: 100%;
+        top: 0;
+        left: 15px;
+        background: linear-gradient(315.39deg, #f64f5980 2.16%, #c471ed2e 49.55%, #12C2E9 100%);
+    }
+    .item-roadmap {
+        position: relative;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .item-roadmap:last-child {
+        margin-bottom: 0;
+    }
+    .item-roadmap__icon {
+        position: absolute;
+        top: 21px;
+        left: -37px;
+    }
+    .item-roadmap__value {
+        margin-bottom: 15px;
+    }
+    .title-middle {
+        font-size: 31px;
+        padding-bottom: 15px;
+    }
+    .subscribe-block {
+     padding: 50px 20px;
+     border-radius: 74px 20px 20px 20px;
+     min-height: initial;
+ }
+ .descr-page {
+    font-size: 15px;
+    line-height: 22px;
+    max-width: 387px;
+    margin-bottom: 20px;
+}
+.footer__wrap {
+  display: block;
+  text-align: center;
+}
+.social-list {
+    justify-content: center;
+}
+.copyright {
+    margin: 20px 0;
+}
+.footer {
+    padding-bottom: 30px;
+}
+.btn-block {
+    padding: 0 30px;
+}
+.subscribe-block__icon {
+    top: -23px;
+    right: -9px;
+}
+.item-team {
+    margin-bottom: 35px;
+}
+.btn_nav {
+    display: inline-block;
+}
+.header {
+    padding: 20px 0;
+    position: fixed;
+}
+.header.active,
+.header.fixed {
+    background-image: url(../img/bg_section1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 100% auto;
+}
+.menu-mobile {
+    height: 100vh;
+    padding-top: 20px;
+    padding-bottom: 180px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    display: none;
+    background-image: url(../img/bg_section1.jpg);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+}
+.menu-mobile .menu {
+    margin: 0;
+    max-width: 100%;
+    display: block;
+}
+.menu-mobile .menu a {
+    padding: 15px 15px;
+    display: block;
+    border-bottom: 1px solid #fff;
+}
+.menu-mobile .item-dropdown {
+    margin-left: 15px;
+    margin-top: 20px;
+}
+.menu a::after {
+    display: none;
+}
+.item-dropdown__content {
+    display: none;
+    visibility: visible;
+    opacity: 1;
+}
+.item-pros {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 49%;
+    margin-bottom: 20px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+}
+.item-pros__image {
+    margin: 0 auto;
+    margin-bottom: 15px;
+}
+.btn-pros {
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.buttons-pros {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 30px;
+}
+.pros-wrap {
+    margin-top: 25px;
+    padding-bottom: 0;
+}
+.row_tradings {
+    margin-top: 35px;
+}
+.title-page {
+    font-size: 44px;
+    line-height: 42px;
+    padding-bottom: 25px;
+}
+.text-big {
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 23px;
+}
+.row_steps > div::after {
+    display: none;
+}
+.row_steps > div {
+    margin-top: 95px;
+}
+.row_advantages {
+    margin: 0 -15px;
+}
+.row_advantages > div {
+    padding: 0 15px;
+}
+.thesis__wrap {
+    flex-wrap: wrap;
+}
+.item-thesis {
+    width: 50%;
+}
+.item-thesis:nth-child(2)::after {
+    display: none;
+}
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    .title-big {
+        font-size: 45px;
+        line-height: 63px;
+    }
+    .descr-big {
+        font-size: 15px;
+        line-height: 26px;
+    }
+    .title-section {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+    .tokenomics .descr-section {
+        margin-bottom: 30px;
+    }
+    .item-roadmap {
+        font-size: 16px;
+    }
+    .item-roadmap p {
+        line-height: 23px;
+    }
+    .item-team__image {
+        width: 150px;
+        height: 150px;
+    }
+    .item-team__name {
+        font-size: 16px;
+        margin-bottom: 6px;
+    }
+    .item-team__descr {
+        font-size: 13px;
+    }
+    .subscribe-block__icon img {
+        max-width: 50px;
+        height: auto;
+    }
+    .line-form {
+        display: block;
+    }
+    .line-form .item-form {
+        max-width: 100%;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .line-form .btn-block {
+        width: 100%;
+    }
+    .billbord__content {
+        max-width: 360px;
+    }
+    .item-advantage__icon {
+        margin-right: 15px;
+    }
+    .item-advantage {
+        min-height: initial;
+    }
+    .row_units > div {
+        margin-top: 25px;
+    }
+    .pros-centner {
+        margin: 0;
+        width: 363px;
+        height: 573px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .circle-pros {
+        top: 37px;
+        right: 8px;
+    }
+    .title-page {
+        font-size: 37px;
+        line-height: 40px;
+        padding-bottom: 20px;
+    }
+    .text-big {
+    font-size: 16px;
+    line-height: 30px;
+}
+.circle-2 {
+    top: 94px;
+    left: 20px;
+}
+.item-thesis__value {
+    font-size: 45px;
+}
+.item-thesis__text {
+    font-size: 13px;
+}
+.item-thesis::after {
+    top: -12px;
+}
+.circle-4 {
+    right: 150px;
+}
+}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+    .menu-mobile {
+        display: none !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+@media (min-width: 1380px) {
+	.container {
+        max-width: 1380px;
+    }
+}
+@media (min-width: 1600px) {
+	.container {
+        max-width: 1380px;
+    }
+}
+
