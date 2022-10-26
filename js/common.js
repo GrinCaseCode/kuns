@@ -50,7 +50,7 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		event.preventDefault();
 		$(this).parent().parent().find("li").removeClass('active');
 		$(this).parent().addClass('active');
-		$(".tab-pane-steps").fadeOut(0);
+		$(".tab-pane-steps").slideUp(400);
 		var selectTab = $(this).attr("href");
 		$(selectTab).slideDown(400);
 	}); 
