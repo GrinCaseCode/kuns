@@ -417,6 +417,10 @@ form {
 }
 .item-service li a {
 	color: #fff;
+	border-bottom: 1px solid transparent;
+}
+.item-service li a:hover {
+	border-color: #fff;
 }
 .item-service li a strong {
 	font-weight: 500;
@@ -800,15 +804,22 @@ form {
 	bottom: -1px;
 	border-radius: 50%;
 	z-index: -1;
-	opacity: 0;
-	transition: all 0.3s;
+	transform: scale(0);
+	transition: all 0.5s;
 	background: linear-gradient(289.26deg, rgba(160, 116, 196, 0.5) -56.45%, rgba(197, 199, 224, 0) 112.29%), #FFFFFF;
 }
+.number-step:hover::before,
 .tabs-steps .active .number-step::before {
-	opacity: 1;
+	transform: scale(1);
 }
 .tab-container-steps {
 	padding-top: 48px;
+}
+.tab-pane-steps {
+	display: none;
+}
+.tab-pane-steps:first-child {
+	display: block;
 }
 .image-step img {
 	max-width: 100%;
@@ -1019,4 +1030,3 @@ form {
 	top: 5px;
 	transform: rotate(-45deg); 
 }
- 

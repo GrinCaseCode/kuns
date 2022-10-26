@@ -46,6 +46,15 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 
 	$(".input-phone").mask("+7 (999) 999-99-99");
 
+	$('.tabs-steps li a').click(function(event) {
+		event.preventDefault();
+		$(this).parent().parent().find("li").removeClass('active');
+		$(this).parent().addClass('active');
+		$(".tab-pane-steps").fadeOut(0);
+		var selectTab = $(this).attr("href");
+		$(selectTab).slideDown(400);
+	}); 
+
 
 	 // стайлер для select
 	 $('select').styler();
