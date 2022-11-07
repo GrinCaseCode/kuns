@@ -18,6 +18,25 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 	$menu.removeClass("fixed").addClass("default");
 }
 
+
+var index = -1
+var $div = $('.tab-pane-divination')
+var intervalID;
+$(".deck").click(function() {
+  $(".tab-pane-divination").fadeOut(0)
+  index = (Math.floor(Math.random()*4)+1) % $div.length
+  $div.eq(index).fadeIn(200)
+	});
+
+
+
+  $(".item-dropdown__head").click(function() {
+  	  $(".item-dropdown").removeClass("active");
+  $(".item-dropdown__content").slideUp(200);
+  $(this).parent().toggleClass("active");
+  $(this).siblings().slideToggle(200);
+});
+
 	//плавный скролл
 	$(".navigat li a").mPageScroll2id();
 
@@ -26,6 +45,16 @@ if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
 		$(this).toggleClass("active"); 
 		$(".header").toggleClass("active");
 		$(".menu-mobile").slideToggle(200);
+	});
+
+	$(".item-amulet .link-page").click(function(e) {
+		e.preventDefault();
+		$(this).siblings(".item-amulet__text").toggleClass("active"); 
+		if ($(this).siblings(".item-amulet__text").hasClass("active")) {
+			$(this).html("Свернуть");
+		} else {
+			$(this).html("Развернуть");
+		}
 	});
 
 	//слайдер
