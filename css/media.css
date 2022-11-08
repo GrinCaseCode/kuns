@@ -142,6 +142,10 @@
 	.thanks .title-section {
 		margin-bottom: 35px;
 	}
+	.item-dropdown__head {
+		font-size: 18px;
+		line-height: 26px;
+	}
 }
 
 @media only screen and (max-width : 1400px) {
@@ -304,6 +308,87 @@
 	}
 	.modal-block .form-page_contacts {
 		width: 553px;
+	}
+	.row_tarifs {
+		margin: 0 -25px;
+		margin-bottom: 50px;
+	}
+	.row_tarifs > div {
+		padding: 0 25px;
+		margin-top: 30px;
+	}
+	.item-dropdown__head {
+		font-size: 16px;
+		line-height: 24px;
+		padding: 22px 20px;
+	}
+	.item-dropdown__content {
+		padding: 22px 20px;
+		padding-top: 0;
+	}
+	.item-dropdown__head i {
+		font-size: 18px;
+	}
+	.training .item-about__title {
+		font-size: 17px;
+		line-height: 20px;
+	}
+	.training .item-about {
+		padding: 20px;
+	}
+	.item-about li {
+		margin-bottom: 10px;
+	}
+	.training {
+		background-size: 1200px auto;
+	}
+	.training .title-section {
+		max-width: 550px;
+		margin-bottom: 30px;
+	}
+	.training-main__title {
+		font-size: 40px;
+		line-height: 64px;
+	}
+	.training-main__descr {
+		font-size: 20px;
+		line-height: 30px;
+	}
+	.training-main__subtitle {
+		font-size: 17px;
+		line-height: 25px;
+	}
+	.training-main__value {
+		font-size: 25px;
+		line-height: 37px;
+	}
+	.wrapper-info {
+		max-width: 925px;
+		margin-bottom: 45px;
+	}
+	.training-main {
+		max-width: 925px;
+	}
+	.item-tarif__title {
+		font-size: 18px;
+		line-height: 26px;
+	}
+	.row_tarifs {
+		margin: 0 -15px;
+		margin-bottom: 40px;
+	}
+	.row_tarifs > div {
+		padding: 0 15px;
+	}
+	.item-tarif li {
+		margin-bottom: 18px;
+	}
+	.training {
+		padding-bottom: 55px;
+	}
+	.title-block {
+		font-size: 28px;
+		line-height: 38px;
 	}
 }
 
@@ -541,6 +626,31 @@
 		width: 430px;
 		margin-top: 20px;
 	}
+	.training .title-section {
+		max-width: 460px;
+	}
+	.training-main__title {
+		font-size: 33px;
+		line-height: 56px;
+	}
+	.training-main__descr {
+		font-size: 18px;
+		line-height: 28px;
+	}
+	.training-main__subtitle {
+		font-size: 15px;
+		line-height: 23px;
+	}
+	.training-main__value {
+		font-size: 22px;
+		line-height: 33px;
+	}
+	.item-tarif ul {
+		padding: 0;
+	}
+	.item-tarif li {
+		margin-bottom: 12px;
+	}
 }
 
 /* Medium Devices, Desktops */
@@ -741,6 +851,29 @@
 		right: -13px;
 		font-size: 22px;
 	}
+	.training .title-section {
+		max-width: 410px;
+	}
+	.row_info > div {
+		margin-top: 25px;
+	}
+	.training .row_about {
+		margin-bottom: 40px;
+	}
+	.item-tarif {
+		max-width: 400px;
+		margin: 0 auto;
+		min-height: 480px;
+	}
+	.item-tarif ul {
+		padding: 0 10px;
+	}
+	.training {
+		background-image: none;
+	}
+	.list-dropdowns {
+		columns: 1;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -913,7 +1046,7 @@
 	.thanks .title-section {
 		margin-bottom: 30px;
 	}
-	.thanks {
+	.thanks { 
 		padding-bottom: 90px;
 	}
 	.modal-block .form-page_contacts {
@@ -922,6 +1055,48 @@
 	.form-page_contacts .logo-form {
 		top: -33px;
 	}	
+	.training .title-section {
+		max-width: 310px;
+		margin-bottom: 22px;
+	}
+	.training-main__title {
+		font-size: 26px;
+		line-height: 33px;
+	}
+	.training-main__descr {
+		font-size: 15px;
+		line-height: 22px;
+	}
+	.training-main__subtitle {
+		font-size: 13px;
+		line-height: 21px;
+	}
+	.training-main__value {
+		font-size: 18px;
+		line-height: 29px;
+	}
+	.training .info-text {
+		margin: 0;
+	}
+	.wrapper-info {
+		margin-bottom: 30px;
+	}
+	.title-block {
+		font-size: 23px;
+		line-height: 30px;
+	}
+	.training .row_about > div {
+		margin-top: 25px;
+	}
+	.training .row_about {
+		margin-bottom: 30px;
+	}
+	.title-block_dropdown {
+		padding-bottom: 20px;
+	}
+	.training {
+		padding-bottom: 35px;
+	}
 }
 
 /* Extra Small Devices, Phones */
@@ -1081,6 +1256,33 @@
 	}
 	.form-page_contacts .logo-form {
 		top: -38px;
+	}
+	.training-main__title {
+		font-size: 22px;
+		line-height: 31px;
+		padding-bottom: 14px;
+	}
+	.training-main__descr {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	.training-main {
+		padding: 25px 15px;
+	}
+	.training .info-text .title-small {
+		font-size: 18px;
+		line-height: 26px;
+		margin-bottom: 8px;
+	}
+	.title-block {
+		font-size: 20px;
+		line-height: 26px;
+	}
+	.title-block_tarifs {
+		padding-top: 15px;
+	}
+	.item-tarif {
+		padding-top: 45px;
 	}
 }
 

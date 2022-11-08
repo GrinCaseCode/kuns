@@ -30,11 +30,11 @@ $(".deck").click(function() {
 
 
 
-  $(".item-dropdown__head").click(function() {
-  	  $(".item-dropdown").removeClass("active");
-  $(".item-dropdown__content").slideUp(200);
+   $(".item-dropdown__head").click(function() {
   $(this).parent().toggleClass("active");
   $(this).siblings().slideToggle(200);
+  $(this).parent().siblings(".item-dropdown").removeClass("active");
+  $(this).parent().siblings(".item-dropdown").find(".item-dropdown__content").slideUp(200);
 });
 
 	//плавный скролл
